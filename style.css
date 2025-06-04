@@ -1,15 +1,34 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f8f9fa;
-}
 
-.card-title {
-  font-weight: bold;
-}
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
 
-.card {
-  transition: transform 0.3s ease;
-}
-.card:hover {
-  transform: scale(1.05);
-}
+    .navbar, footer {
+      background-color: #0E2148 !important;
+    }
+
+    header {
+      background-color: #483AA0;
+    }
+
+    .card {
+      background-color: #7965C1;
+      color: white;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(72, 58, 160, 0.3);
+    }
+
+    .card a {
+      color: #f8f9fa;
+      text-decoration: underline;
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+  
